@@ -13,7 +13,7 @@ namespace CourseLibrary.API.Entities
         [MaxLength(90)]
         public string Title { get; set; }
 
-        [MaxLength(1500)]
+        [MaxLength(1501)]
         public string Description { get; set; }
 
         [ForeignKey("AuthorId")]
