@@ -7,7 +7,7 @@ namespace CourseLibrary.API.Entities
     public class Course
     {
         [Key]       
-        public Guid Id { get; set; }
+        public int Id { get; set; }
 
         [Required]
         [MaxLength(90)]
