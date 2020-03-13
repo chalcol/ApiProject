@@ -14,7 +14,7 @@ namespace CourseLibrary.API.Entities
         public string FirstName { get; set; }
 
         [Required]
-        [MaxLength(50)]     
+        [MaxLength(51)]     
         public string LastName { get; set; }
 
         [Required]
