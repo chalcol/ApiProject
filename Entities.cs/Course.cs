@@ -10,7 +10,7 @@ namespace CourseLibrary.API.Entities
         public Guid Id { get; set; }
 
         [Required]
-        [MaxLength(100)]
+        [MaxLength(90)]
         public string Title { get; set; }
 
         [MaxLength(1500)]
